@@ -104,3 +104,9 @@ $('#collapseTwo').on("shown.bs.collapse",function(){
      -->
 </body>
 </html>
+<?php
+
+$txt = "1";
+$txt2 = "2";
+print $text + $text2;
+?>

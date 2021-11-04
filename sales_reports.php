@@ -227,13 +227,11 @@ $result = $conn->query($sql);
 
 
 
- <!-------------First JQuery then Popper then Bootstrap then Fontawesome ------------->
+<?php
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="https://kit.fontawesome.com/417824116f.js" crossorigin="anonymous"></script>
-
+// FOOTER PART CALL
+include '../include/footer.php';
+?>
 
 </body>
 </html>

@@ -4,7 +4,7 @@ include "connect.php";
 session_start();
 if(isset($_SESSION['NAME']))
 {
-$NAME= $_SESSION["NAME"];
+$NAME = $_SESSION["NAME"];
 $ids = $_SESSION["MEMBER_ID"];
 }
 else {
